@@ -1,3 +1,30 @@
+# Esercizio di oggi: **React Router Store**
+
+repo: `react-router`
+
+**Consegna**
+
+Creiamo il frontend del nostro mini e-commerce e le sue pagine principali!
+Useremo Fake Store API come backend fittizio per simulare i dati dei prodotti.
+
+https://fakestoreapi.com/
+
+**Obiettivi**
+
+1. Installiamo **React Router DOM:** `pnpm add react-router`
+2. Creiamo almeno 3 pagine principali:
+    - Homepage (con un messaggio di benvenuto o immagine promozionale)
+    - Chi siamo
+    - Prodotti (pagina che mostrerà la lista dei prodotti prendendoli da https://fakestoreapi.com/products)
+3. Implementiamo una Navbar visibile in tutte le pagine per navigare tra di esse
+
+**Bonus**
+
+- Centralizziamo la Navbar usando un componente `Layout`
+- Gestiamo la classe `active` per i link attivi nella Navbar
+
+
+
 # Starter Template React + Vite
 
 Questo repository è uno starter template per creare nuovi progetti React con Vite in modo veloce, ordinato e coerente. L'idea è semplice: invece di rifare ogni volta scaffolding, pulizia del boilerplate e organizzazione iniziale, si parte da una base già pronta.
