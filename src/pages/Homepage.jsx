@@ -1,6 +1,11 @@
+import style from "./Homepage.module.css"
 function Homepage() {
     return (
-        <div>Homepage</div>
+        <>
+            <section className={style.heroSection}>
+                
+            </section>
+        </>
     )
 }
 export default Homepage
