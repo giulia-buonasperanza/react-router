@@ -5,7 +5,7 @@ function LayoutNavbar() {
         <header>
             <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                    <h1 className="navbar-brand"> MyApp </h1>
+                    <h1 className="navbar-brand"> Kincare </h1>
                     <button
                         className="navbar-toggler"
                         type="button"
