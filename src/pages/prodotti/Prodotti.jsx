@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 import { useEffect, useState } from "react";
 import CardProdotti from "./prodottiComponenti/cardProdotti";
 
@@ -27,7 +28,9 @@ function Prodotti() {
                 <div className="row g-4">
                     {prodotti.map((prodotto) => (
                         <div className="col-md-4" key={prodotto.id}>
-                            <CardProdotti prodotto={prodotto} />
+                            <Link to={`/prodotto/${prodotto.Id}`}>
+                                <CardProdotti prodotto={prodotto} />
+                            </Link>
                         </div>
                     ))}
                 </div>
